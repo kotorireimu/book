@@ -6,20 +6,23 @@
   width: 100vw;
   height: 20vh;
   background-color: rgb(10, 8, 141);
-  display: flex;
-  text-align: center;
   &__title{
-    width: 70vw;
+    height: 15vh;
     line-height: 20vh;
     font-size: 2.5rem;
+    text-align: center;
     color: rgb(192, 2, 2);
   }
   &__login{
-    width: 30vw;
-    line-height: 20vh;
-    font-size: 1rem;
-    color: rgb(5, 230, 117);
-    text-decoration: none;
+    height: 5vh;
+    line-height: 5vh;
+    text-align: right;
+    padding-right: 5%;
+    &__btn{
+      font-size: 1rem;
+      color: rgb(5, 230, 117);
+      text-decoration: none;
+    }
   }
 }
 
